@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="textview">LOGIN</string>
+    <string name="login">Login</string>
+    <string name="password">PASSWORD</string>
+    <string name="username">USERNAME</string>
+    <string name="forget_password">forget password?</string>
+</resources>

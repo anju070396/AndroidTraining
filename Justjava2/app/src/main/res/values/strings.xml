@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Coffee Order</string>
+    <string name="toppings">TAPPING</string>
+    <string name="whipped_cream">weap Cream</string>
+    <string name="chocolate">chocolate</string>
+    <string name="quantity">quntity</string>
+    <string name="initial_quantity_value">0</string>
+    <string name="prize">0</string>
+    <string name="order">order</string>
+    <string name="thank_you">Thank you</string>
+    <string name="original_prize">0</string>
+</resources>

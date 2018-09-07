@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="false"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:text="LOGIN"
+        android:textColor="#3f7b97"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    <LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@+id/text"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+
+    <LinearLayout
+        android:id="@+id/layoutID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/username"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/enterId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:hint="Enter your ID"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:textColor="#a60707"
+            android:outlineAmbientShadowColor="#000000"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layoutID"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text="@string/password"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/enterPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Enter your password"
+            android:padding="10dp"
+            android:inputType="textPassword" />
+    </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtForget"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/forget_password"
+            android:textColor="#cf0b2e"
+            android:paddingLeft="150dp"
+            android:layout_margin="10dp" />
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:background="#0f3241"
+        android:textColor="#FFFFFF"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:layout_margin="5dp"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp">
+    <ImageView
+        android:id="@+id/fbimg"
+            android:src="@drawable/fb"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="48dp"
+        android:clickable="true"/>
+    <ImageView
+        android:id="@+id/googleimg"
+        android:src="@drawable/google"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="48dp"
+        android:clickable="true"/>
+    <ImageView
+        android:id="@+id/linkimg"
+        android:src="@drawable/linked"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="48dp"
+        android:clickable="true"/>
+</LinearLayout>
+
+</LinearLayout>
+
+</RelativeLayout>

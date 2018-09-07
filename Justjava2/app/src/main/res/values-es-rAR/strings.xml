@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Coffee Order</string>
+    <string name="toppings">Ingredientes</string>
+    <string name="whipped_cream">Crema batida</string>
+    <string name="chocolate">Chocolate</string>
+    <string name="quantity">Cantidad</string>
+    <string name="order">Ordenar</string>
+</resources>
